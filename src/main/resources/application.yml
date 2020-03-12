@@ -1,0 +1,22 @@
+
+
+spring:
+  application:
+    name: Channel Dictionary
+  servlet:
+    multipart:
+      max-file-size: 3500000
+      max-request-size: 3500000
+
+
+#---
+#spring:
+#  profiles: production
+#  datasource:
+#    password:
+#    username:
+#    url:
+#    driver-class-name: "com.mysql.jdbc.Driver"
+server:
+  port: 8089
+
