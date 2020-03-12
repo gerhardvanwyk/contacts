@@ -1,12 +1,13 @@
 # Contacts
 
+Did not implement everything, looked at Company and Customer. Think most of the design and coding points have been touch upon.
+
 The circular reference is looked at in the Controller, not in the DB.
 Although circular reference is possible, the application should warn the user.
 
 ## Design
 I opted for no Service layer since there is no business logic 
 The controller use the repository layer, which already holds the relationships amongst the entities
-I only implemented Customer and Company since the others duplicate a similar scenario
 
 ## Run the App
 Open in a IDE then run main in the Application class.
